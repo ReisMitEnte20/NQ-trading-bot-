@@ -116,10 +116,10 @@ CONFIG = {
     # DAS IST DER WICHTIGSTE ABSCHNITT! Hier schützt du dein Kapital.
     # ─────────────────────────────────────────────────────────────
 
-    "account_size": 50000,      # Kontogröße in USD
+    "account_size": 10000,      # Kontogröße in USD
                                 # Passe das an dein echtes Konto an!
 
-    "max_risk_pct": 0.01,       # Maximales Risiko pro Trade = 1% des Kontos
+    "max_risk_pct": 0.02,       # Maximales Risiko pro Trade = 1% des Kontos
                                 # Bei $50.000 Konto = max. $500 Risiko pro Trade
                                 # Anfänger: 0.005 (0.5%) bis 0.01 (1%)
 
