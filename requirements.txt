@@ -1,0 +1,34 @@
+# ══════════════════════════════════════════════════════════════
+#  requirements.txt – ALLE BENÖTIGTEN PYTHON-PAKETE
+# ══════════════════════════════════════════════════════════════
+#
+# INSTALLATION in PyCharm:
+# 1. Terminal öffnen (unten in PyCharm: "Terminal" Tab)
+# 2. Diesen Befehl eingeben:
+#    pip install -r requirements.txt
+#
+# ODER einzeln installieren:
+#    pip install numpy pandas scipy scikit-learn hmmlearn
+# ══════════════════════════════════════════════════════════════
+
+# Grundlegende Mathematik und Datenverarbeitung
+numpy>=1.24.0          # Arrays, Matrizen, Mathematik
+pandas>=2.0.0          # Tabellen (DataFrames), CSV lesen/schreiben
+scipy>=1.10.0          # Wissenschaftliche Funktionen (KDE etc.)
+
+# Machine Learning
+scikit-learn>=1.3.0    # GMM, Random Forest, Preprocessing
+# hmmlearn                # NICHT nötig – wir nutzen unsere eigene HMM-Implementierung!
+                          # (hmmlearn lässt sich auf Python 3.14 noch nicht installieren)
+
+# Deep Learning (optional – für spätere CNN/LSTM Erweiterung)
+# torch>=2.0.0         # PyTorch (auskommentiert – nur wenn du CNN nutzen willst)
+# tensorflow>=2.13.0   # TensorFlow (Alternative zu PyTorch)
+
+# Daten und Visualisierung
+matplotlib>=3.7.0      # Grafiken und Charts
+seaborn>=0.12.0        # Schönere Charts
+
+# Nützliches
+tqdm>=4.65.0           # Fortschrittsbalken für lange Berechnungen
+python-dotenv>=1.0.0   # Für API-Keys in .env Datei (Sicherheit!)
